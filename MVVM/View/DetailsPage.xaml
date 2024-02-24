@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="NewsApp.MVVM.View.DetailsPage"
+             Title="DetailsPage">
+
+    <VerticalStackLayout Spacing="15">
+        <Image x:Name="ImageNews" Aspect="AspectFit"/>
+        <Label  x:Name="TitleLbl" FontSize="Title" FontAttributes="Bold"/>
+        <Label  x:Name="description" FontSize="Body"/>
+        <Label x:Name="Content" FontSize="Body"/>
+    </VerticalStackLayout>
+   
+</ContentPage>
